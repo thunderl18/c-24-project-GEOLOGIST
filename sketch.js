@@ -11,6 +11,8 @@ var rubber4;
 var rubber5;
 var rubber6;
 var stone;
+var square;
+var circle;
 
 function setup(){
     var canvas = createCanvas(1200,600);
@@ -26,7 +28,8 @@ function setup(){
     rubber5 = new Rubber(450,400,20/2);
     rubber6 = new Rubber(460,400,20/2);
     stone = new Stone(300,300);
-
+    square = new Square(500,500);
+    circle = new Circle(700,500,80/2);
 }
 
 function draw(){
@@ -43,4 +46,7 @@ function draw(){
     rubber5.display();
     rubber6.display();
     stone.display();
+    square.display();
+    circle.display();
+
 }

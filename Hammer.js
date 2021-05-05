@@ -1,7 +1,7 @@
 class Hammer {
   constructor(x, y) {
     var options = {
-      'density':4,
+      'density':5,
       'friction': 1.0,
       'restitution':0.5
     };
